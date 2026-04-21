@@ -1,0 +1,4 @@
+syntax = "proto3";
+package bench;
+service BenchService { rpc Echo (Payload) returns (Payload); }
+message Payload { bytes data = 1; }

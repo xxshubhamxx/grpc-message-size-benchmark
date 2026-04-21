@@ -1,0 +1,16 @@
+config,payload,status,mean_ms,p95_ms,p99_ms,throughput_rps
+4MB_limit,128KB,ok,3.82,5.07,12.41,261.9
+4MB_limit,512KB,ok,5.39,14.60,14.60,185.5
+4MB_limit,1MB,ok,13.25,22.81,22.81,75.5
+4MB_limit,3.9MB,ok,47.33,106.64,106.64,21.1
+4MB_limit,4MB,FAIL,,,,
+4MB_limit,8MB,FAIL,,,,
+20MB_limit,128KB,ok,1.99,2.93,7.69,501.4
+20MB_limit,512KB,ok,5.01,14.21,14.21,199.5
+20MB_limit,1MB,ok,11.31,26.57,26.57,88.4
+20MB_limit,3.9MB,ok,33.15,72.31,72.31,30.2
+20MB_limit,4MB,ok,25.54,36.05,36.05,39.1
+20MB_limit,8MB,ok,44.81,69.04,69.04,22.3
+20MB_limit,16MB,ok,141.45,201.85,201.85,7.1
+20MB_limit,20MB,FAIL,,,,
+20MB_limit,21MB,FAIL,,,,
